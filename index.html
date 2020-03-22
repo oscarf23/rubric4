@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rubric 4</title>
+</head>
+<body onload="myFunction ()">
+    <h1>Rubric 4</h1>
+
+    <script src="script.js"></script>
+
+    <p>EventListener test</p>
+
+<button id="2ndbutton">Test Me!</button>
+
+<p id="timeandDate"></p>
+
+<script>
+document.getElementById("2ndbutton").addEventListener("click", displayDate);
+
+function displayDate() {
+  document.getElementById("timeandDate").innerHTML = Date();
+}
+</script>
+
+<script>
+    function myFunction() {
+      alert("Loading...");
+    }
+    </script>
+
+<img src="images/kobe.jpg" onmouseover="this.src='images/KobeShot.jpg'" onmouseout="this.src='images/kobe.jpg'" />
+
+    
+    
+
+
+    
+</body>
+</html>
